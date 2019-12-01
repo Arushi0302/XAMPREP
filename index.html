@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>XAMPREP</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #008040;
+  padding: 8px;
+  text-align: center;
+  font-size: 35px;
+  height: 150px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 25px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+a:link, a:visited {
+  background-color: #0a7910;
+  color: white;
+  padding: 14px 35px;
+  text-align: right;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: rgb(40, 143, 45);
+}
+
+/* Style the footer */
+.footer {
+  background-color: #dbeef1;
+  padding: 8px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="header">
+  <h2>Xamprep</h2>
+  <h4>YOUR PARTNER IN EXAMS</h4>
+</div>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(249, 251, 252);">
+    <h2>SIGNUP</h2>
+    <h3>signup to our website.Here you will find a lot of interesting stuff related to exam preparation.<br>
+    Don't forget to sign up.....</h3>
+    <hr>
+
+    <a href="signup.html" >sign up</a>
+  </div>
+  <div class="column" style="background-color:rgb(247, 248, 248);"> <img src= "img/pp.jpg" alt=" "  style="width:100%; max-width:600px"></div>
+  <div class="column" style="background-color:rgb(246, 248, 248);">
+    <h2>SIGNIN</h2>
+    <h3>sign in if you are already registered, you can sign in here!</h3>
+    <hr>
+    <a href='signin.html'> sign in </a>
+  </div>
+</div>
+
+<div class="footer">
+  <footer id="footer"><li><a href="ipconsultants018307@gmail.com">ipconsultants018307@gmail.com</a></li></footer>
+</div>
+
+</body>
+</html>
