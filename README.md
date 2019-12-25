@@ -16,5 +16,4 @@ Hope you liked my website's authentication sample page, apart from it the actual
 
 ![](Docs/auth.jpg)
 
-I know it looks a bit untidy at the moment, but hey i am learning css and i'll improve it soom.
-
+I know it looks a bit untidy at the moment, but hey i am learning css and i'll improve it soon.
