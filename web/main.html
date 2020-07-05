@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Question paper</title>
+<style>
+body {
+font-family: "Lato", sans-serif;
+ margin: 1;
+ }
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #008040;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 18px 22px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 30px;
+  margin-top: 8px;
+  margin-right: 20px;
+  background: #ddd;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: rgb(24, 23, 23);
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2
+}
+.block {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="webmain.html" target="_self">home</a>  
+  
+  <div class="dropdown">
+    <button class="dropbtn">subject
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">operation research</a>
+      <a href="#">Data structures</a>
+      <a href="#">Python</a>
+      <a href="#">Engineering design</a>
+      <a href="#">Computer organization and architecture</a>
+      <a href="#">applied linear algebra</a>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">year 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">2017</a>
+      <a href="https://drive.google.com/drive/folders/1GJaifgVc2D-1M1rJIsIlTBpT0YC7-Roc?usp=sharing">2018</a>
+      <a href="#">2019</a>
+    </div>
+  </div> 
+   <div class="dropdown">
+    <button class="dropbtn">exam 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://drive.google.com/drive/folders/1Gskcm9spY_XVYYn4WbcSsiQVbEIiwFCZ?usp=sharing">cat1 </a>
+      <a href="https://drive.google.com/drive/folders/1sQilg_IMKF9I6q_tG4FuKDQw_Vk2gJ80?usp=sharing">cat2</a>
+      <a href="https://drive.google.com/drive/folders/1LeiH87ASyijC9HV0vJrh-MxtmhEMO_cS?usp=sharing">fat</a>
+	  <a href="#">supplymentry</a>
+    </div>
+	</div>
+  <div class="dropdown">
+    <button class="dropbtn">semester 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://drive.google.com/drive/folders/1bg-s7gTaTpbwNVa2QXmmDWN81tN_6ORy?usp=sharing">fall semester </a>
+      <a href="https://drive.google.com/drive/folders/1xC3Z0xi6LUL5l8bb6ed4GbomY-UrZUqm?usp=sharing">winter semester</a>
+      
+    </div>
+  </div> 
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+
+
+
+<div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i>search</button>
+    </form>
+  </div>
+</div>
+
+
+<div style="padding-left:16px">
+  <h2>UPLOAD AND DOWNLOAD</h2>
+  <hr>
+  <p>Here are some books for your references which can help you out in the exam.</p>
+  <p>Click on the book for pdf.</p>
+  <table>
+  <tr>
+    <th>BOOK</th>
+    <th>AUTHOR</th>
+    <th>PDF</th>
+  </tr>
+  <tr>
+    <td>Engineering Chemistry</td>
+    <td>Jain n Jain</td>
+    <td><a href="pdf/egch.pdf" download="ec">
+  <img src="img\ch.png" alt="book" width="104" height="142">
+</a></td>
+  </tr>
+  <tr>
+    <td>Linear algebra</td>
+    <td>Jim Franza</td>
+    <td><a href="pdf/aplial.pdf" download="laa">
+  <img src="img\m2.png" alt="book" width="104" height="142">
+</a></td>
+  </tr>
+  <tr>
+    <td>oops c++</td>
+    <td>E Balaguruswamy</td>
+    <td><a href="pdf/bala.pdf" download="bala">
+  <img src="img\m3.png" alt="book" width="104" height="142">
+</a></td>
+  </tr>
+</table>
+
+
+ 
+</div>
+<hr>
+ <h1>UPLOAD YOUR PAPER HERE...<h1>
+ <hr>
+ <div>
+ <p>Click on upload to upload any question paper.</p>
+ <!-- Text input fields -->
+<input id="name" type="text" placeholder="Your Name">
+<input id="email" type="email" placeholder="Your Email">
+
+ <form action="static/php/upload.php" method="post" enctype="multipart/form-data">
+  
+  <input type="file" name="fileToUpload" id="fileToUpload">
+  <input type="submit" value="Upload file" name="submit">
+  
+</form>
+
+
+
+<hr>
+</div>
+
+<div id="footer-wrapper">
+		<footer id="footer"><li><a href="">Contact us- ipconsultants018307@gmail.com</a></li></footer>
+        
+	</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+</html>
